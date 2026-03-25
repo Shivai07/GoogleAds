@@ -52,13 +52,13 @@ function PrivacyPolicy() {
         </p>
 
         {/* Discover More box — top */}
-        <DiscoverBox
+        {/* <DiscoverBox
           links={[
             { label: "IDM tutorial videos" },
             { label: "Custom browser extensions" },
             { label: "Android phones" },
           ]}
-        />
+        /> */}
 
         <p className="text-slate-700 leading-relaxed mb-8">
           By accessing or using our website and services ("Service"), you consent to the collection
@@ -132,13 +132,13 @@ function PrivacyPolicy() {
         </p>
 
         {/* Discover More box — cookies section */}
-        <DiscoverBox
+        {/* <DiscoverBox
           links={[
             { label: "software" },
             { label: "Software" },
             { label: "Software Utilities" },
           ]}
-        />
+        /> */}
 
         <p className="text-slate-600 italic text-sm mb-8">
           For more information, please review our [Cookies Policy].
@@ -172,13 +172,13 @@ function PrivacyPolicy() {
           </ul>
 
           {/* Discover More box — sharing section */}
-          <DiscoverBox
+          {/* <DiscoverBox
             links={[
               { label: "Download Managers" },
               { label: "Web Browsers" },
               { label: "Large file handler" },
             ]}
-          />
+          /> */}
         </Section>
 
         {/* ── 6. Retention of Your Personal Data ── */}
@@ -289,12 +289,12 @@ function PrivacyPolicy() {
       </main>
 
       {/* ── Footer ── */}
-      <footer className="border-t border-gray-200 py-6 text-center text-sm text-gray-500">
+      {/* <footer className="border-t border-gray-200 py-6 text-center text-sm text-gray-500">
         Copyright © 2026 Praise The Sun | Powered by{" "}
         <a href="#" className="text-blue-600 hover:underline">
           Astra WordPress Theme
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }

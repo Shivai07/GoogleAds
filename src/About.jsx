@@ -118,7 +118,7 @@ function About() {
         <div className="max-w-6xl mx-auto flex items-start justify-between">
 
           {/* Brand */}
-          <span className="text-xl font-bold text-slate-900">Candle Chaart</span>
+          {/* <span className="text-xl font-bold text-slate-900">Candle Chaart</span> */}
 
           {/* Nav columns */}
           <div className="grid grid-cols-2 gap-x-24 gap-y-4 text-sm text-gray-500">

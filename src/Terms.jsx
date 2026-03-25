@@ -1,9 +1,3 @@
-// ============================================================
-//  Terms.jsx  –  Tailwind CSS version
-//  "Praise The Sun" website
-// ============================================================
-
-// ── Reusable Discover More Box ────────────────────────────────
 function DiscoverBox({ links }) {
   return (
     <div className="border border-gray-200 rounded-md my-6">
@@ -120,9 +114,9 @@ function Terms() {
           and others who access or use the Service.
         </p>
 
-        <DiscoverBox
+        {/* <DiscoverBox
           links={["Apple iPhones", "Software security audits", "External hard drive"]}
-        />
+        /> */}
 
         <p className="text-slate-700 leading-relaxed mb-4">
           By accessing or using the Service You agree to be bound by these Terms and Conditions. If
@@ -163,13 +157,13 @@ function Terms() {
           or services.
         </p>
 
-        <DiscoverBox
+        {/* <DiscoverBox
           links={[
             "Premium download manager subscriptions",
             "App installation wizard",
             "High speed internet plans",
           ]}
-        />
+        /> */}
 
         <p className="text-slate-700 leading-relaxed mb-8">
           We strongly advise You to read the terms and conditions and privacy policies of any
@@ -209,14 +203,14 @@ function Terms() {
           whatsoever...
         </p>
 
-        <DiscoverBox
+        {/* <DiscoverBox
           links={["download manager", "VPN services", "Update reminder service"]}
-        />
+        /> */}
 
-        <p className="text-slate-600 italic text-sm mb-8">
+        {/* <p className="text-slate-600 italic text-sm mb-8">
           [Note: Remainder remains unchanged — apply the same edits where the company or domain
           name appears.]
-        </p>
+        </p> */}
 
         <hr className="border-gray-200 mb-8" />
 
